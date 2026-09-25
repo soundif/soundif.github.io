@@ -87,6 +87,26 @@
             border: 1px solid #00d2ff;
         }
 
+        /* Style dla sekcji FAQ */
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        .faq-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .faq-question {
+            font-weight: bold;
+            color: #ffffff;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+
+        .faq-answer {
+            color: #b0b0b0;
+        }
+
         .cta-box {
             text-align: center;
             background: linear-gradient(135deg, #00d2ff, #3a7bd5);
@@ -101,6 +121,16 @@
             margin-bottom: 15px;
         }
 
+        .contact-info {
+            margin: 20px 0;
+            font-size: 1.1rem;
+        }
+
+        .contact-info a {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
         .phone-btn {
             display: inline-block;
             background-color: #ffffff;
@@ -110,7 +140,7 @@
             font-weight: bold;
             text-decoration: none;
             border-radius: 30px;
-            margin-top: 15px;
+            margin-top: 10px;
             transition: background 0.3s;
         }
 
@@ -153,9 +183,34 @@
             </ul>
         </section>
 
+        <!-- NOWA SEKCJA FAQ -->
+        <section>
+            <h2>Najczęściej zadawane pytania (FAQ)</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">Gdzie dokładnie dojeżdżasz ze sprzętem?</div>
+                <div class="faq-answer">Działam głównie na terenie Brzezia, Niepołomic i okolic (kod 32-014). W sprawie dokładnego dojazdu najlepiej napisać lub zadzwonić.</div>
+            </div>
+            <br>
+            <div class="faq-item">
+                <div class="faq-question">Jak wygląda sprawa cen i płatności?</div>
+                <div class="faq-answer">Każda impreza jest inna, dlatego ceny ustalamy indywidualnie w zależności od tego, czego dokładnie potrzebujesz i na jak długo. Skontaktuj się ze mną, a na pewno się dogadamy!</div>
+            </div>
+            <br>
+            <div class="faq-item">
+                <div class="faq-question">Jak zarezerwować termin?</div>
+                <div class="faq-answer">Najlepiej zadzwonić pod numer telefonu lub napisać bezpośrednio na maila: kontakt.soundif@gmail.com z wyprzedzeniem, żeby upewnić się, że termin jest wolny.</div>
+            </div>
+        </section>
+
         <div class="cta-box">
-            <h2>Chcesz dowiedzieć się więcej?</h2>
-            <p>Skontaktuj się ze mną, chętnie odpowiem na pytania i omówimy szczegóły.</p>
+            <h2>Masz pytania lub chcesz wynająć sprzęt?</h2>
+            <p>Odezwij się do mnie i ustalmy szczegóły Twojego wydarzenia.</p>
+            
+            <div class="contact-info">
+                📧 E-mail: <a href="mailto:kontakt.soundif@gmail.com">kontakt.soundif@gmail.com</a>
+            </div>
+
             <!-- Tutaj w przyszłości podasz swój prawdziwy numer -->
             <a href="tel:123456789" class="phone-btn">📞 Zadzwoń: 123 456 789</a>
         </div>

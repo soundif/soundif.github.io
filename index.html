@@ -130,22 +130,44 @@
             text-decoration: underline;
         }
 
-        .phone-btn {
+        .form-btn {
             display: inline-block;
             background-color: #ffffff;
             color: #0a0a0a;
-            padding: 12px 30px;
-            font-size: 1.3rem;
+            padding: 14px 30px;
+            font-size: 1.2rem;
             font-weight: bold;
             text-decoration: none;
             border-radius: 30px;
-            margin-top: 10px;
+            margin-bottom: 20px;
+            transition: background 0.3s, transform 0.2s;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .form-btn:hover {
+            background-color: #f0f0f0;
+            transform: scale(1.05);
+        }
+
+        .phone-btn-container {
+            margin-top: 15px;
+        }
+
+        .phone-btn {
+            display: inline-block;
+            background-color: #0a0a0a;
+            color: #ffffff;
+            padding: 10px 20px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 20px;
+            border: 1px solid #ffffff;
             transition: background 0.3s;
         }
 
         .phone-btn:hover {
-            background-color: #f0f0f0;
-            transform: scale(1.05);
+            background-color: #222222;
         }
 
         footer {
@@ -197,25 +219,31 @@
             <br>
             <div class="faq-item">
                 <div class="faq-question">Jak wygląda sprawa cen?</div>
-                <div class="faq-answer">Ceny ustalamy indywidualnie zależnie od charakteru imprezy i czasu trwania. Napisz lub zadzwoń, a na pewno się dogadamy!</div>
+                <div class="faq-answer">Ceny ustalamy indywidualnie zależnie od charakteru imprezy i czasu trwania. Wypełnij formularz lub skontaktuj się bezpośrednio, a na pewno się dogadamy!</div>
             </div>
             <br>
             <div class="faq-item">
                 <div class="faq-question">Jak się skontaktować?</div>
-                <div class="faq-answer">Możesz napisać bezpośrednio na maila: kontakt.soundif@gmail.com lub zadzwonić pod numer podany poniżej.</div>
+                <div class="faq-answer">Możesz wypełnić formularz rezerwacji na dole strony, napisać na maila: kontakt.soundif@gmail.com lub zadzwonić.</div>
             </div>
         </section>
 
         <div class="cta-box">
-            <h2>Potrzebujesz kogoś do obsługi dźwięku?</h2>
-            <p>Odezwij się do mnie i ustalmy szczegóły Twojego wydarzenia.</p>
+            <h2>Chcesz zarezerwować termin lub zapytać o szczegóły?</h2>
+            <p>Wypełnij krótki formularz, a skontaktuję się z Tobą najszybciej jak to możliwe!</p>
+            <br>
+            
+            <!-- Przycisk do Twojego Formularza Google -->
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGEmZEOF2_5ikYqaCl9AZAebpSK2sbHkhn1KOPb6t8kvv6_A/viewform?usp=header" target="_blank" class="form-btn">📅 Wypełnij formularz rezerwacji</a>
             
             <div class="contact-info">
                 📧 E-mail: <a href="mailto:kontakt.soundif@gmail.com">kontakt.soundif@gmail.com</a>
             </div>
 
-            <!-- Tutaj w przyszłości podasz swój prawdziwy numer -->
-            <a href="tel:123456789" class="phone-btn">📞 Zadzwoń: 123 456 789</a>
+            <div class="phone-btn-container">
+                <!-- Tutaj w przyszłości podasz swój prawdziwy numer w cudzysłowie i tekście -->
+                <a href="tel:123456789" class="phone-btn">📞 Zadzwoń: 123 456 789</a>
+            </div>
         </div>
     </div>
 
